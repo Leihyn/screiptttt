@@ -1,0 +1,53 @@
+body > table {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table.list {
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid orange;
+    text-align: left;
+    padding: 8px;                                                                                                                                                                                                                                    
+}
+
+tr:nth-child(even), table.list thead>tr {
+    background-color: green;
+}
+
+input[type=text], input[type=number], input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid aquamarine;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: lemonchiffon;
+    color: orangered;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: dotted;
+    border-radius: 5px;
+    cursor: crosshair;
+}
+
+form div.form-action-buttons {
+    text-align: right;
+}
+
+a {
+    cursor: crosshair;
+    text-decoration: underline;
+    color:brown;
+    margin-right: 4px;
+}
